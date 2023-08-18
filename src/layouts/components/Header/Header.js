@@ -119,7 +119,7 @@ function Header() {
                             <Tippy delay={[0, 50]} content="Inbox" placement="bottom">
                                 <button className={cx('action-btn')}>
                                     <InboxIcon />
-                                    <span className={cx('badge')}>12</span>
+                                    <span className={cx('badge')}>40</span>
                                 </button>
                             </Tippy>
                         </>
@@ -134,8 +134,8 @@ function Header() {
                         {currentUser ? (
                             <Image
                                 className={cx('user-avatar')}
-                                src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/5c6cc3f1d52b7a9bc2c79b05a93039b5~c5_100x100.jpeg?x-expires=1692529200&x-signature=5JaKyM%2FeAOWGB%2FA%2BBcY0whicCqc%3D"
-                                alt="Nguyen Van A"
+                                src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6e02fd3f9e25afc568a2e5c60e78c32a~c5_100x100.jpeg?x-expires=1692540000&x-signature=KhLFIqtkfP5FUcMK3zv%2BVc8EZaI%3D"
+                                alt="lingggtit"
                             />
                         ) : (
                             <button className={cx('more-btn')}>
